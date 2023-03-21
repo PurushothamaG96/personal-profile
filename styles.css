@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/abstract-futuristic-background-with-3d-design_1361-3532.jpg?w=996&t=st=1679390899~exp=1679391499~hmac=1c001783c38f7e787013b9c65bd5f875d6b72639de479091c5fcb7a36f9af157");
+    background-size: 100%;
+}
+header, main, footer{
+    padding: 10px 10%;
+   
+}
+header{
+    background-image: url("https://cutewallpaper.org/21/wide-background/Onkle-Dougs-Background-Collection.gif");
+    background-repeat:repeat-x;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+nav li{
+    margin: 0px 10%;
+}
+nav ul li a{
+    text-decoration: none;
+    
+    font-weight: 700;
+}
+
+nav ul li a, nav h1{
+    color: rgba(9, 248, 108, 0.6);
+}
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 85vh;
+    align-items: center;
+    background-color: rgba(202, 151, 250, 0.2);
+}
+.profile-right-container, .profile-left-container{
+    width: 500px;
+    padding: 1rem;
+}
+.profile-right-container img{
+    width: 100%;
+    mix-blend-mode:multiply;
+}
+.profile-left-container h1, .skill h1, .about-heading{
+ color: rgb(147, 145, 252);
+font-size: 3rem;
+}
+.profile-left-container h3{
+    color: rgb(188, 120, 255);
+}
+.text-white{
+    color: rgb(92, 50, 192);
+}
+footer{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cutewallpaper.org/21/wide-background/Onkle-Dougs-Background-Collection.gif");
+}
+footer>h1{
+    font-size: 3rem; 
+    color: rgb(53, 247, 111);
+}
+.mobile-no{
+    display: flex;
+}
+.mobile-no h1{
+    color: rgb(53, 247, 111);
+}
+.linkdin, .git{
+    width: 50px;
+    border-radius:1rem ;
+}
+.copy{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.about, .skill{
+    min-height: 90vh;
+    margin: 5vh 0px;
+    background-color: rgba(202, 151, 250, 0.2);
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+}
+.cards img{
+    width: 200px;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.about-left-container img{
+    filter: contrast(2);
+}
+.about-right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    display: flex;
+}
+.about-right-container{
+    color: aqua;
+}
+.about-right-container p{
+    color: aliceblue;
+}
+
+
